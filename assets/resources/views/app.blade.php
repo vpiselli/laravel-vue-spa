@@ -54,6 +54,15 @@
                                 <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
                             </ul>
                         </section>
+
+                        <section class="mb-8">
+                            <h5 class="uppercase font-bold mb-5 text-base">About Laracasts</h5>
+
+                            <ul>
+                                <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/team">The Team</router-link></li>
+                                <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/achievements">Your Achievements</router-link></li>
+                            </ul>
+                        </section>
                     </aside>
 
                     <div class="primary flex-1">

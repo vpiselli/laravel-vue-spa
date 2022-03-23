@@ -8,6 +8,8 @@ import Typography from './components/Typography';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
 import SiteStats from './components/SiteStats';
+import Team from './components/Team';
+import Achievements from './components/Achievements';
 
 let LoadersAndAnimations = () => import('./components/LoadersAndAnimations');
 
@@ -52,6 +54,14 @@ const routes = [
     {
         path: '/site-stats',
         component: SiteStats,
+    },
+    {
+        path: '/team',
+        component: Team,
+    },
+    {
+        path: '/achievements',
+        component: Achievements,
     },
 ]
 
