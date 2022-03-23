@@ -7,8 +7,14 @@ import LogoSymbol from './components/LogoSymbol';
 import Mascot from './components/Mascot';
 import Typography from './components/Typography';
 import Wallpapers from './components/Wallpapers';
+import NotFound from './components/NotFound';
 
 const routes = [
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: NotFound
+    },
     {
         path: '/',
         component: Logo
