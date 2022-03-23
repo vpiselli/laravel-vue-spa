@@ -1,0 +1,4 @@
+Lesson 9: Hashed API Tokens
+
+No code for this lesson, just watch the video.
+No need to hash tokens sinces I used Laravel Sanctum
