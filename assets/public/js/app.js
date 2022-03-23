@@ -19833,11 +19833,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "font-normal text-3xl text-gray-darkest leading-none"
-};
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h1 class=\"font-normal text-3xl text-gray-darkest leading-none mb-8\"> Full Logo </h1><div class=\"mb-10\"><picture style=\"height:382px;\" class=\"shadow rounded-lg flex items-center justify-center mb-6\"><img src=\"/images/logo.svg\" alt=\"logo\"></picture><div class=\"flex justify-between items-center\"><p>Original Logo on <strong>white</strong> background</p><a href=\"/images/logo.svg\" class=\"border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs\"> logo.svg </a></div></div><div class=\"mb-10\"><picture style=\"height:382px;\" class=\"shadow rounded-lg flex items-center justify-center mb-6 bg-blue\"><img src=\"/images/negative-logo.svg\" alt=\"negative logo\"></picture><div class=\"flex justify-between items-center\"><p>Negative Logo on <strong>white</strong> background</p><a href=\"/images/negative-logo.svg\" class=\"border border-grey-light px-8 py-2 rounded-full text-black font-bold text-xs\"> logo.svg </a></div></div>", 3);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", _hoisted_1, " Full Logo ");
+  return _hoisted_1;
 }
 
 /***/ }),
@@ -19899,8 +19899,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
+var _hoisted_1 = {
+  "class": "text-3xl font-bold"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", null, "404 | Not Found");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", _hoisted_1, "404 | Not Found");
 }
 
 /***/ }),
