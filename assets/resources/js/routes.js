@@ -1,13 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Colors from './components/Colors';
 import Illustrations from './components/Illustrations';
-import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Logo from './components/Logo';
 import LogoSymbol from './components/LogoSymbol';
 import Mascot from './components/Mascot';
 import Typography from './components/Typography';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
+
+let LoadersAndAnimations = () => import('./components/LoadersAndAnimations');
 
 const routes = [
     {

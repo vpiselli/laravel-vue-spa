@@ -466,20 +466,80 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-5 {
   margin-bottom: 1.25rem;
 }
+.mr-8 {
+  margin-right: 2rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mr-4 {
+  margin-right: 1rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mr-10 {
+  margin-right: 2.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.mr-6 {
+  margin-right: 1.5rem;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.mr-3 {
+  margin-right: 0.75rem;
+}
+.block {
+  display: block;
 }
 .flex {
   display: flex;
 }
+.h-5 {
+  height: 1.25rem;
+}
+.h-8 {
+  height: 2rem;
+}
 .w-64 {
   width: 16rem;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-8 {
+  width: 2rem;
 }
 .flex-1 {
   flex: 1 1 0%;
 }
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -487,22 +547,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
-.rounded-lg {
-  border-radius: 0.5rem;
-}
 .rounded-full {
   border-radius: 9999px;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 .border {
   border-width: 1px;
 }
-.border-grey-light {
+.border-grey-lighter {
   --tw-border-opacity: 1;
-  border-color: rgb(222 222 222 / var(--tw-border-opacity));
+  border-color: rgb(241 245 248 / var(--tw-border-opacity));
 }
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(23 71 176 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+}
+.bg-grey-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 144 156 / var(--tw-bg-opacity));
+}
+.bg-grey-lightest {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 .py-8 {
   padding-top: 2rem;
@@ -512,9 +588,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 .pt-8 {
   padding-top: 2rem;
@@ -522,8 +613,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pb-4 {
   padding-bottom: 1rem;
 }
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+.text-center {
+  text-align: center;
 }
 .font-sans {
   font-family: Open Sans, sans-serif;
@@ -544,11 +641,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 .font-bold {
   font-weight: 700;
 }
 .font-normal {
   font-weight: 400;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-semibold {
+  font-weight: 600;
 }
 .uppercase {
   text-transform: uppercase;
@@ -559,9 +666,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 .leading-none {
   line-height: 1;
 }
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-normal {
+  line-height: 1.5;
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(34 34 34 / var(--tw-text-opacity));
+}
+.text-grey {
+  --tw-text-opacity: 1;
+  color: rgb(184 194 204 / var(--tw-text-opacity));
+}
+.text-grey-darkest {
+  --tw-text-opacity: 1;
+  color: rgb(74 74 74 / var(--tw-text-opacity));
+}
+.text-grey-darker {
+  --tw-text-opacity: 1;
+  color: rgb(96 111 123 / var(--tw-text-opacity));
+}
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(23 71 176 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -575,4 +708,9 @@ a {
 
 .container {
     max-width: 920px;
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
