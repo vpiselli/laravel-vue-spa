@@ -7,6 +7,7 @@ import Mascot from './components/Mascot';
 import Typography from './components/Typography';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
+import SiteStats from './components/SiteStats';
 
 let LoadersAndAnimations = () => import('./components/LoadersAndAnimations');
 
@@ -47,6 +48,10 @@ const routes = [
     {
         path: '/wallpapers',
         component: Wallpapers,
+    },
+    {
+        path: '/site-stats',
+        component: SiteStats,
     },
 ]
 

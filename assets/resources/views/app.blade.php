@@ -15,8 +15,10 @@
     <body class="font-sans">
         <div id="app">
             <header class="section py-8 px-8 mb-8" style="background: url('/images/splash.svg') 0 15px no-repeat;">
-                <h1 class="text-3xl font-bold">
-                    <img src="/images/logo.svg" alt="Laracasts">
+                <h1>
+                    <a href="https://laracasts.com">
+                        <img src="/images/logo.svg" alt="Laracasts">
+                    </a>
                 </h1>
             </header>
 
@@ -42,6 +44,14 @@
                                 <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
                                 <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/loaders-and-animations">Loaders & Animations</router-link></li>
                                 <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+
+                        <section class="mb-8">
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+
+                            <ul>
+                                <li class="text-sm pb-4 leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
                             </ul>
                         </section>
                     </aside>
